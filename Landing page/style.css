@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+}
+
+.front-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-image: url(gallery/dogwalkingblog3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightblue;
+    min-width: 100vh;
+    min-height: 90vh;
+}
+
+
+
+header {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+    position: relative;
+    grid-gap: 20px;
+    border-bottom: solid black;
+}
+
+header img {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 50px !important;
+}
+
+h2{
+    margin: 50px;
+    grid-column: 1 / 4;
+    justify-self: center;
+}
+
+.problem {
+    padding: 30px 0;
+background:
+#ffe7d2;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 3fr 4fr 5px;
+}
+
+div img {
+    max-width: 140px;
+    margin-left: 55px;
+}
+
+div {
+    justify-self: center;
+    align-self: center;
+}
+
+.big{
+grid-column: 1 / 4;
+justify-self: center;
+}
+
+.big img{
+    margin-left: 65px;
+}
+
+.linje{
+grid-column: 1 / 4;
+grid-row: 4 / 5;
+min-width: 80%;
+border-bottom: 1px solid grey;
+}
+
+.løsning{
+padding: 30px 0;
+background: #ffe7d2;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 3fr 4fr;
+}
+
+.product-pitch {
+    grid-row: 1 / 3;
+    align-self: start;
+    margin-left: 5%;
+    margin-top: 5%;
+    border: 1px solid lightgray;
+    background-color: rgb(135, 206, 250, 0.4);
+    min-height: 90%;
+}
+
+article{
+    margin-left: 3%;
+}
