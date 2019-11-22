@@ -4,38 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script type="application/schema.org">
-{
-"@context": "https://schema.org",
-"@type": "BreadcrumbList",
-  "itemListElement": [{
-    "@type": "ListItem",
-    "position": 1,
-    "name": "app",
-    "item": "https://pasdyr.dk"
-  },{
-    "@type": "ListItem",
-    "position": 2,
-    "name": "Authors",
-    "item": "https://example.com/books/authors"
-  },{
-    "@type": "ListItem",
-    "position": 3,
-    "name": "Ann Leckie",
-    "item": "https://example.com/books/authors/annleckie"
-  }
-  
-  "offers": {
-    "@type": "Offer",
-    "price": "0"
-  }
-  ]
-}
-</script>
     <title>Petcare</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
     
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Pasdyr",
+      "operatingSystem": "ANDROID, IOS",
+      "applicationCategory": "https://schema.org/LifestyleApplication",
+      
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "ratingCount": "9999"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0.00",
+}
+    }
+    </script>
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "organization",
+          "@id": "http://Digipets.com",
+          "name": "Digipets A/S",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Avenue de Rabat 13",
+            "addressLocality": "Essaouira",
+            "postalCode": "44000",
+            "addressCountry": "MO"
+          },
+          "url": "http://www.example.com/restaurant-locations/manhattan",
+          "telephone": "+21277291243"
+        }
+    </script>
 </head>
 <body>
 
