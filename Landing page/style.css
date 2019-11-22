@@ -195,3 +195,21 @@ a {
 
 
   }
+
+  
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #fff; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #fff; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fff; 
+  }
+  
